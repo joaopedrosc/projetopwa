@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block container %}
+
+<div class="page-header">
+			<h1>Produtos</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<a href="#">
+						<img src="https://cdn.macrumors.com/article-new/2017/09/iphonexdesign-1-800x597.jpg" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Iphone X</h3>
+						<p>O Apple iPhone X é um smartphone iOS com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização. A tela de 5.8 polegadas coloca esse Apple no topo de sua categoria. A resolução também é alta: 2436x1125 pixel. As funcionalidades oferecidas pelo Apple iPhone X são muitas e top de linha. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão. </p>
+						<p><a href="#" class="btn btn-success" role="button">Comprar</a> <a href="{% url 'produto' %}" class="btn btn-default" role="button">Especificações</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+	  		    <div class="thumbnail">
+	  				<a href="#">
+	  					<img src="http://placehold.it/350x250" alt="" />
+	  				</a>
+	  				<div class="caption">
+	  					<h3>Lorem ipsum dolor sit amet</h3>
+	  					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  					<p><a href="#" class="btn btn-success" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+	  				</div>
+	  		    </div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+	  		    <div class="thumbnail">
+	  				<a href="#">
+	  					<img src="http://placehold.it/350x250" alt="" />
+	  				</a>
+	  				<div class="caption">
+	  					<h3>Lorem ipsum dolor sit amet</h3>
+	  					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  					<p><a href="#" class="btn btn-success" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+	  				</div>
+	  		    </div>
+		  	</div>
+		</div>
+
+{% endblock %}
